@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>Digital Agency</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Navbar</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Dropdown
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+      <footer>
+    <div style="background-color: black;" class="row">
+        <div class="d-flex" style="justify-content: center;">
+           <img style="padding: 10px;" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRC70htKDhD5FSSYtY609ot7yXwSpsObjCfew&usqp=CAU" alt="logo" height="50px">
+           <img style="padding: 10px;" src="data:image/png;base64,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" alt="logo" height="50px">
+           <img style="padding: 10px;" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSC_fWfo4ZlEIF4bf6atK_tLD4CXX-FMxlNyg&usqp=CAU" alt="logo" height="50px">
+           <img style="padding: 10px;" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8Ii1lyAenLscm9g3Nxsys8DAbhzeNRYUBFg&usqp=CAU" alt="logo" height="50px">
+        </div>
+        <h2 style="text-align: center; color: white; font-weight: 900;">Have any project in mind?</h2>
+        <div class="d-flex justify-content-center">
+        <button type="button" class="btn btn-secondary">Make Inquiry</button>
+    </div>
+    <div style="background-color: black;" class="collapse">
+    </div>
+    </div>
+      </footer>
+</body>
+</html>
