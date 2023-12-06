@@ -1,3 +1,26 @@
 body{
-    background-color: black;
+    background-color:black;
+}
+.border-right{
+    border-right: 5px solid white;
+    margin-right: 130px;
+    height: 210px;
+}
+.border-right{
+    border-right: 5px solid white;
+    margin-right: 5%;
+}
+.vl {
+border-right: 3px solid white;
+    height: 70px;
+    margin-right: 700px;
+    margin-top: 10px;
+  }
+  .vl{
+    border-right: 3px solid white;
+    height:70px;
+    margin-left: -700px;
+  }
+.lady{
+    margin-left: 900px;
 }
