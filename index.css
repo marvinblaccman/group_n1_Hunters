@@ -1,4 +1,7 @@
 
+body{
+    background-color: black;
+}
 *{box-sizing: border-box;}
 #juju a {
     padding: 10px;
@@ -13,4 +16,4 @@
     color: ;
     height: 70px;
     margin-right: 700px;
-
+}
