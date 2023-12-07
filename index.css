@@ -1,0 +1,10 @@
+.boy{
+    position: absolute;
+    bottom: -20px;
+}
+.vl{
+    border-right: solid 2px;
+    color: aqua;
+    height: 70px;
+    margin-right: 700px;
+}
