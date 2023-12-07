@@ -1,0 +1,19 @@
+
+body{
+    background-color: black;
+}
+*{box-sizing: border-box;}
+#juju a {
+    padding: 10px;
+    margin: 10px;
+}
+.boy{
+    position: absolute;
+    bottom: -20px;
+}
+.vl{
+    border-right: solid 2px;
+    color: ;
+    height: 70px;
+    margin-right: 700px;
+}
