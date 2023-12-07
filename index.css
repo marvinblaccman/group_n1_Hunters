@@ -1,0 +1,5 @@
+*{box-sizing: border-box;}
+#juju a {
+    padding: 10px;
+    margin: 10px;
+}
